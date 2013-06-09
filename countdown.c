@@ -8,10 +8,9 @@ int num ;
 num = 0;
 printf("What is your number?") ;
 scanf("%d", &num);
-while (num > 0)
+for (;num > 0;num--)
 {
-printf("%d", &num);
-num-- ;
+printf("%d\n", &num);
 }
 
 return 0 ;
